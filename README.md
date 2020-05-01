@@ -20,15 +20,15 @@ Rakhmatjon Khasanov U1610183
 Outline 
 =======
 
--   **Abstract **
--   **Introduction **
--   **Project Overview **
--   **Requirements definition **
--   **Project Design & Implementation **
--   **Results & Discussions **
--   **Conclusion **
--   **Future Work **
--   **References**
+-   Abstract 
+-   Introduction 
+-   Project Overview 
+-   Requirements definition 
+-   Project Design & Implementation 
+-   Results & Discussions
+-   Conclusion
+-   Future Work
+-   References
 
 Abstract 
 ========
@@ -96,7 +96,7 @@ Introduction
 **Project Overview** 
 ====================
 
-![](meta/1.jpg)
+    ![](meta/1.jpg)
 
 -   Database Manipulation - all the information on the goods are stored
     in server database. When the session starts all information is
@@ -161,7 +161,9 @@ Introduction
     into it. The last use-case *MONEY TRANSACTION* has three actors, two
     clients *OWNER, AUCTION PARTICIPANT, and SERVER.
     
-    ![](meta/3.jpg)The activity diagram describes the whole process where a client is
+    ![](meta/3.jpg)
+    
+-   The activity diagram describes the whole process where a client is
     offered the services we provided. Firstly, client has to pass the
     authorisation part. Assuming client has an account, he/she can
     successfully pass the authorisation part. A client can choose to
@@ -185,7 +187,9 @@ Introduction
     user is logged out and taken to *AUTHORISATION* window. When a user
     chooses the *EXIT* option, application is to be terminated.
     
-    ![](meta/4.jpg)The class diagrams show the structure we used to define our
+    ![](meta/4.jpg)
+    
+-   The class diagrams show the structure we used to define our
     real-world entities. In our auction software, we work with clients,
     their lots, and the information on bids. So we have created above
     defined structures to store them. Client has own id, username,
@@ -197,7 +201,7 @@ Introduction
     information on lot (title, description, time for auction), and
     whether money transaction has been made after the auction.
 
--   ![](meta/5.jpg)
+    ![](meta/5.jpg)
 
 -   The diagram on the right depicts the behaviour of the client and
     server when a new user is to be created. Client requests the server
@@ -282,7 +286,7 @@ Introduction
     
     ![](meta/15.jpg)
 
-![](meta/16.jpg)
+    ![](meta/16.jpg)
 
 -   In the “Profile” section of the “Menu” user is able to check the
     information which was provided by the user himself/herself
@@ -291,7 +295,7 @@ Introduction
     
     ![](meta/17.jpg)
 
-![](meta/18.jpg)
+    ![](meta/18.jpg)
 
 -   The window on the right is the GUI for an adding lot option of the
     main menu. User can input the required fields and press *ADD*
@@ -386,28 +390,28 @@ Introduction
 References: 
 ==========
 
-[1\]. [http://dev.mysql.com](http://dev.mysql.com/)
+\[1\]. [http://dev.mysql.com](http://dev.mysql.com/)
 
-[2\]. <https://www.w3schools.com/colors/colors_picker.asp>
+\[2\]. <https://www.w3schools.com/colors/colors_picker.asp>
 
-[3\]. <https://stackoverflow.com/questions/5141960/get-the-current-time-in-c>
+\[3\]. <https://stackoverflow.com/questions/5141960/get-the-current-time-in-c>
 
-[4\]. <https://stackoverflow.com/questions/8352027/gtk-timer-how-to-make-a-timer-within-a-frame>
+\[4\]. <https://stackoverflow.com/questions/8352027/gtk-timer-how-to-make-a-timer-within-a-frame>
 
-[5\]. <https://www.geeksforgeeks.org/socket-programming-in-cc-handling-multiple-clients-on-server-without-multi-threading/>
+\[5\]. <https://www.geeksforgeeks.org/socket-programming-in-cc-handling-multiple-clients-on-server-without-multi-threading/>
 
-[6\]. <https://gist.github.com/oleksiiBobko/43d33b3c25c03bcc9b2b>
+\[6\]. <https://gist.github.com/oleksiiBobko/43d33b3c25c03bcc9b2b>
 
 \[7\]. <https://www.relationaldbdesign.com/extended-database-features/module1/course-database-project.php>
 
-[8\]. <https://developer.gnome.org/gtk3/stable/GtkListStore.html>
+\[8\]. <https://developer.gnome.org/gtk3/stable/GtkListStore.html>
 
 \[9\]. <https://habr.com/post/116268/>
 
-[10\]. <https://prognotes.net/2015/07/gtk-3-glade-c-programming-template/>
+\[10\]. <https://prognotes.net/2015/07/gtk-3-glade-c-programming-template/>
 
-[11\]. <https://prognotes.net/2016/03/gtk-3-c-code-hello-world-tutorial-using-glade-3/>
+\[11\]. <https://prognotes.net/2016/03/gtk-3-c-code-hello-world-tutorial-using-glade-3/>
 
 \[12\]. <https://ubuntuforums.org/archive/index.php/t-1176046.html>
 
-[13\]. <https://developer.gnome.org/gtk3/stable/TreeWidget.html>
+\[13\]. <https://developer.gnome.org/gtk3/stable/TreeWidget.html>
