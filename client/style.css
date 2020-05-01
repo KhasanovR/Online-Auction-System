@@ -1,0 +1,158 @@
+#back_button{
+	min-width: 50px;
+	border-radius: 40px;
+	border: 2px solid #8080ff; 
+	margin: 5px;
+	color: white;
+	background: #8000ff;
+	font-size: 1.0em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	color: white;
+	padding: 3px 10px;
+}
+
+#add_button{
+	padding: 3px 10px;
+	color: white;
+	min-width: 50px;
+	border-radius: 30px;
+	border: 2px solid #e6ffff; 
+	margin: 5px;
+	background: #00e600;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+
+#delete_button{
+	padding: 3px 10px;
+	color: white;
+	min-width: 50px;
+	border-radius: 30px;
+	border: 2px solid #ffad99; 
+	margin: 5px;
+	background: red;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+
+#window{
+	background-image: url('src/images/bg_body.png');
+	background-repeat: repeat;
+}
+
+#login_button{
+	padding: 3px 10px;
+	color: white;
+	min-width: 90px;
+	border-radius: 30px;
+	border: 2px solid #e6ffff; 
+	margin: 5px;
+	background: #00e600;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+
+#register_button{
+	padding: 3px 10px;
+	color: white;
+	min-width: 50px;
+	border-radius: 30px;
+	border: 2px solid #8080ff; 
+	margin: 5px;
+	background: #8000ff;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+
+#menu_button_1{
+	padding: 3px 10px;
+	min-width: 50px;
+	border-radius: 30px;
+	border: 2px solid #8080ff; 
+	margin: 5px;
+	color: white;
+	background: #8000ff;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+
+#menu_button_2{
+	padding: 3px 17px;
+	min-width: 50px;
+	border-radius: 30px;
+	border: 2px solid #8080ff; 
+	margin: 5px;
+	color: white;
+	background: #8000ff;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+
+#menu_button_3{
+	padding: 3px 45px;
+	min-width: 50px;
+	border-radius: 30px;
+	border: 2px solid #8080ff; 
+	margin: 5px;
+	color: white;
+	background: #8000ff;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+
+#menu_button_4{
+	padding: 3px 50px;
+	min-width: 50px;
+	border-radius: 30px;
+	border: 2px solid #8080ff; 
+	margin: 5px;
+	color: white;
+	background: #8000ff;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+
+#menu_button_5{
+	padding: 3px 55px;
+	min-width: 50px;
+	border-radius: 30px;
+	border: 2px solid #8080ff; 
+	margin: 5px;
+	color: white;
+	background: #8000ff;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+
+#menu_button_6{
+	padding: 3px 10px;
+	min-width: 50px;
+	border-radius: 30px;
+	border: 2px solid #8080ff; 
+	margin: 5px;
+	color: white;
+	background: #8000ff;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+
+#text{
+	transition-property: all;
+	transition-duration: 1s;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-style: oblique;
+	font-size: 1.0em;
+	color: #6666ff;
+}
