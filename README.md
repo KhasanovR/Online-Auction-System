@@ -1,11 +1,10 @@
-Online Auction System
-====================================================================================
+# Online Auction System
 
-<u>**Team Leader:**</u>
+**Team Leader:**
 
 Bokhodir Urinboev U1610249
 
-<u>**Members:**</u>
+**Members:**
 
 Anvarjon Yusupov U1610026
 
@@ -17,8 +16,7 @@ Oybek Amonov U1610176
 
 Rakhmatjon Khasanov U1610183
 
-Outline 
-=======
+## Outline 
 
 -   Abstract 
 -   Introduction 
@@ -30,77 +28,34 @@ Outline
 -   Future Work
 -   References
 
-Abstract 
-========
+## Abstract
 
--   Automation and changing the process to the digital world makes
-    everything easier to handle. So, now let’s see what happens beyond
-    the cover of the system.
--   Our system mainly handles the process of auction, like the work of
-    the organizers are handled by server-side and clients are supported
-    in client-side of the software. Server-side mainly handles the
-    database manipulation, connection with clients, process input from
-    clients, send/receive responds, and of course money transaction and
-    process it. Client-side is much plain to understand in our software,
-    as it handles only connection, process responds from server,
-    send/receive responds, money transaction.
--   In other words, the admin (in our case, there is only server who
-    covers for an admin) get request for the auction to the specific
-    good, he/she adds the good to the database and server sets up the
-    date for the auction and notifies the client about this. So the
-    auction begins then starting price is announced, then users raise
-    the price and wait till the end of the process. And so it goes on.
--   We can claim that we can use our software in real world as nowadays
-    even auctions and tenders are held on-line without going out the
-    house. This is just demo version, further we can extend to the real
-    alpha product adding additional features and improve the stability
-    and performance.
+- Automation and changing the process to the digital world makes everything easier to handle. So, now let’s see what happens beyond the cover of the system.
 
-Introduction 
-============
+- Our system mainly handles the process of auction, like the work of the organizers are handled by server-side and clients are supported in client-side of the software. Server-side mainly handles the database manipulation, connection with clients, process input from clients, send/receive responds, and of course money transaction and process it. Client-side is much plain to understand in our software, as it handles only connection, process responds from server, send/receive responds, money transaction.
 
--   From the period of 1995 to 2000 online auctions gone from nothing to
-    the functional methods used by the millions of people from various
-    industries. The factual example of the development of this system
-    was introduced by the information list provided by Yahoo in 1998
-    which explained that the number of the automatized auctions were
-    about the 90 and in comparison to the number in current time the
-    list is much bigger than existed ones.
--   Auctions made great success among the other forms of electronic
-    commerce methods which is used in the industry. The functions that
-    does exist in online auctions has obvious advantages over the local
-    off-line ones as their functional process does not follow with
-    automatized steps and highly vulnerable for the simple human factors
-    and auction process physical destructions.
--   The online environment is conductive for the auctions in an online
-    environment because of the following properties. The network
-    supports dynamic communication which makes the management of the
-    protocols involving unknown number of participants. Unlike physical
-    concentration of misunderstandings and shout at the room made by the
-    traders the network auction mediator can have direct access on the
-    information of the participant and control with the process within
-    the auction rules.
+-   In other words, the admin (in our case, there is only server who covers for an admin) get request for the auction to the specific good, he/she adds the good to the database and server sets up the date for the auction and notifies the client about this. So the auction begins then starting price is announced, then users raise the price and wait till the end of the process. And so it goes on.
 
--   The case with online auctions make the process to be running in a
-    real-time as in sense that off-line auctions tend to be which makes
-    the identification of the participant easier and faster broadcast of
-    the bids message (multicast communication protocols) Therefore, the
-    widespread of the online auction protocols are not surprising in
-    current moment.
--   All the functions including the participants’ identification in the
-    beginning of the auction and the message notification while bid
-    accepted or rejected by the participants and real – time monitoring
-    control over the process of the auction procedures included in the
-    system of the application that our team presenting in this report.
+- We can claim that we can use our software in real world as nowadays even auctions and tenders are held on-line without going out the house. This is just demo version, further we can extend to the real alpha product adding additional features and improve the stability and performance.
+
+## Introduction 
+
+-   From the period of 1995 to 2000 online auctions gone from nothing to the functional methods used by the millions of people from various industries. The factual example of the development of this system was introduced by the information list provided by Yahoo in 1998 which explained that the number of the automatized auctions were about the 90 and in comparison to the number in current time the list is much bigger than existed ones.
+    
+-   Auctions made great success among the other forms of electronic commerce methods which is used in the industry. The functions that does exist in online auctions has obvious advantages over the local off-line ones as their functional process does not follow with automatized steps and highly vulnerable for the simple human factors and auction process physical destructions.
+    
+-   The online environment is conductive for the auctions in an online environment because of the following properties. The network supports dynamic communication which makes the management of the protocols involving unknown number of participants. Unlike physical concentration of misunderstandings and shout at the room made by the traders the network auction mediator can have direct access on the information of the participant and control with the process within the auction rules.
+
+-   The case with online auctions make the process to be running in a real-time as in sense that off-line auctions tend to be which makes the identification of the participant easier and faster broadcast of the bids message (multicast communication protocols) Therefore, the widespread of the online auction protocols are not surprising in current moment.
+    
+-   All the functions including the participants’ identification in the beginning of the auction and the message notification while bid accepted or rejected by the participants and real – time monitoring control over the process of the auction procedures included in the system of the application that our team presenting in this report.
 
 **Project Overview** 
 ====================
 
-    ![](meta/1.jpg)
+![](meta/1.jpg)
 
--   Database Manipulation - all the information on the goods are stored
-    in server database. When the session starts all information is
-    accessed and be ready to process. We used SQL server to hold the
+- Database Manipulation - all the information on the goods are stored in server database. When the session starts all information is accessed and be ready to process. We used SQL server to hold the
     database. The database has the following tables: visa\_card(for
     money transactions operation journaling), bid(for recording
     information on successful biddings and the bidders), lot(information
